@@ -29,4 +29,5 @@ if (order_amount >= 1000 and days in["sat","sun"]) or membership == "yes":
     print("you are eligible for discpunt")
 else:
     print("you are not eligible for discount")
+
      
