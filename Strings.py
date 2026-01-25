@@ -1,17 +1,23 @@
 name = "hariAddsDSSS"
 no = "6374198604"
 aadhaar_no = "5678 8930 9744"
+
 print(name.lower())
+
 print(name.upper())
+
 print(name.capitalize())
+
 print(name[2:])
 print(name[:-4])
 print(no[:2]+"********"+no[-2:])
 print(aadhaar_no[:5]+"****"+aadhaar_no[-5:])
 print(f"my name is {name}.my mobile number is {no}")
+
 song  = "singam Singam"
 artist = "HARI haran"
 print(f"{song.title()} - {artist.title()}")
+
 location = "omalur,salem-636309"
 fixed_location = location.replace("omalur","kamalapuram")
 print(location)
@@ -46,3 +52,4 @@ print(game.strip().upper())
 word1 = "my girl so cute and looks like pretty"
 word_count = len(word1.split())
 print(word_count)
+
